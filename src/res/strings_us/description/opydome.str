@@ -1,0 +1,33 @@
+STRINGTABLE Opydome {
+    Opydome                             "pyDome";
+
+    PYDOME_GROUP_MAIN                   "main";
+        PYDOME_BOOL_BACKGROUND          "build background";
+        PYDOME_BOOL_ENVIRONMENT         "build environment";
+        PYDOME_BOOL_REFLECTION          "build reflection";
+        PYDOME_BOOL_SUN                 "build sun";
+        PYDOME_BOOL_LIGHTS              "build lights";
+        PYDOME_BTN_LOAD                 "load...";
+
+    PYDOME_GROUP_INFO                   "ibl info";
+        PYDOME_STATIC_NAME              "name";
+        PYDOME_STATIC_AUTHOR            "author";
+        PYDOME_STATIC_LINK              "link";
+        PYDOME_STATIC_LOCATION          "location";
+        PYDOME_TEXT_COMMENT             "comment";
+        PYDOME_STATIC_LAT               "latitude";
+        PYDOME_STATIC_LON               "longitude";
+        PYDOME_STATIC_DATE              "date";
+        PYDOME_STATIC_TIME              "time";
+
+    PYDOME_GROUP_ENVIRONMENT            "environment";
+        PYDOME_ENV_LINK_PROTOTYPE       "env light prototype";
+        PYDOME_ENV_BOOL_USESRGB         "convert colors to sRGB";
+        PYDOME_ENV_LONG_SEED            "seed";
+        PYDOME_ENV_REAL_RADIUS          "radius";
+        PYDOME_ENV_LONG_SAMPLES         "max samples";
+        PYDOME_ENV_REAL_THRESHOLD       "threshold";
+        PYDOME_ENV_REAL_HORIZON         "horizon";
+        PYDOME_ENV_BOOL_NORMALIZE       "normalize";
+        PYDOME_ENV_REAL_MULTIPLIER      "multiplier";
+}
