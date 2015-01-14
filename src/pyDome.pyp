@@ -21,7 +21,7 @@ from c4d import utils
 ### TODO: support for uv offsets
 ### TODO: confirm uv coordinates... since we're looking at a sky from the inside we might want to provide an option to mirror uvs
 
-PYDOME_BUILD_DATE = '20140622'
+PYDOME_BUILD_DATE = '20150114'
 
 # some PI constants
 PI          = math.pi
@@ -442,7 +442,7 @@ class PyDome(plugins.ObjectData):
 
             if data.GetBool(c4d.PYDOME_BOOL_REFLECTION) and 'reflection' in self._ibl_dict:
                 # build reflection
-                ref_img_file = self._ibl_dict['background'].get('reffile', None)
+                ref_img_file = self._ibl_dict['reflection'].get('reffile', None)
                 if ref_img_file is not None:
                     ref_img = os.path.join(root_path, ref_img_file)
                 else:
