@@ -1,0 +1,33 @@
+STRINGTABLE Opydome {
+    Opydome                             "pyCœpula";
+
+    PYDOME_GROUP_MAIN                   "Principal";
+        PYDOME_BOOL_BACKGROUND          "Crear Fondo";
+        PYDOME_BOOL_ENVIRONMENT         "Crear Entorno";
+        PYDOME_BOOL_REFLECTION          "Crear Reflexi—n";
+        PYDOME_BOOL_SUN                 "Crear Sol";
+        PYDOME_BOOL_LIGHTS              "Crear Luces";
+        PYDOME_BTN_LOAD                 "Cargar...";
+
+    PYDOME_GROUP_INFO                   "Informaci—n IBL";
+        PYDOME_STATIC_NAME              "Nombre";
+        PYDOME_STATIC_AUTHOR            "Autor";
+        PYDOME_STATIC_LINK              "Enlace";
+        PYDOME_STATIC_LOCATION          "Ubicaci—n";
+        PYDOME_TEXT_COMMENT             "Comentarios";
+        PYDOME_STATIC_LAT               "Latitud";
+        PYDOME_STATIC_LON               "Longitud";
+        PYDOME_STATIC_DATE              "Fecha";
+        PYDOME_STATIC_TIME              "Hora";
+
+    PYDOME_GROUP_ENVIRONMENT            "Entorno";
+        PYDOME_ENV_LINK_PROTOTYPE       "Prototipo Luz de Entorno";
+        PYDOME_ENV_BOOL_USESRGB         "Convertir colores a sRGB";
+        PYDOME_ENV_LONG_SEED            "Semilla";
+        PYDOME_ENV_REAL_RADIUS          "Radio";
+        PYDOME_ENV_LONG_SAMPLES         "Muestras M‡ximas";
+        PYDOME_ENV_REAL_THRESHOLD       "Umbral";
+        PYDOME_ENV_REAL_HORIZON         "Horizonte";
+        PYDOME_ENV_BOOL_NORMALIZE       "Normalizar";
+        PYDOME_ENV_REAL_MULTIPLIER      "Multiplicador";
+}
